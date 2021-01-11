@@ -2,11 +2,10 @@
 ;; 启动之前先初始化submodule
 
 
-(add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
+(add-to-list 'load-path (expand-file-name "modules" user-emacs-directory))
 
 (require 'init-elpa)  ;; 设置清华源
 (require 'init-theme) ;; 初始化主题vs-dark-theme
-(require 'init-auto-complete) ;; 自动补全
 
 
 (provide 'init)
